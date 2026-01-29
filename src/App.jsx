@@ -1,5 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Instagram, Music, Facebook, Youtube, Play, Briefcase, Award, Sparkles } from 'lucide-react';
+// Replaced Lucide with Remix Icons (Modern React Icons Library)
+import { 
+  RiMailLine, 
+  RiPhoneLine, 
+  RiMapPinLine, 
+  RiLinkedinFill, 
+  RiInstagramFill, 
+  RiTiktokFill, // The correct TikTok Icon
+  RiFacebookFill, 
+  RiYoutubeFill, 
+  RiPlayFill, 
+  RiBriefcaseLine, 
+  RiAwardLine, 
+  RiSparklingFill 
+} from 'react-icons/ri';
 import { motion, useDragControls, useMotionValue } from 'framer-motion';
 
 // 3D Avatar Component (Draggable with animations)
@@ -189,7 +203,7 @@ const DraggableAvatar = () => {
               transition={{ duration: 2, repeat: Infinity }}
               className="absolute top-4 sm:top-8 right-4 sm:right-8"
             >
-              <Sparkles className="text-white w-3 h-3 sm:w-4 sm:h-4" />
+              <RiSparklingFill className="text-white w-3 h-3 sm:w-4 sm:h-4" />
             </motion.div>
 
             <motion.div
@@ -200,7 +214,7 @@ const DraggableAvatar = () => {
               transition={{ duration: 2.5, repeat: Infinity, delay: 0.5 }}
               className="absolute bottom-8 sm:bottom-12 left-4 sm:left-8"
             >
-              <Sparkles className="text-white w-2 h-2 sm:w-3 sm:h-3" />
+              <RiSparklingFill className="text-white w-2 h-2 sm:w-3 sm:h-3" />
             </motion.div>
           </div>
 
@@ -394,7 +408,7 @@ const Portfolio = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-[#4cc8ed] to-[#366a5d] rounded-full font-semibold text-base sm:text-lg transition-all inline-flex items-center gap-2"
               >
-                Let's Work Together <Play size={20} />
+                Let's Work Together <RiPlayFill size={20} />
               </motion.button>
             </AnimatedText>
           </div>
@@ -417,19 +431,19 @@ const Portfolio = () => {
             >
               <div className="space-y-6 text-base sm:text-lg text-gray-300 leading-relaxed">
                 <p className="flex items-start gap-3">
-                  <Sparkles className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
+                  <RiSparklingFill className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
                   <span>I'm a Video Editor and AI Video & Graphic Creator focused on building visually compelling content that delivers real business impact.</span>
                 </p>
                 <p className="flex items-start gap-3">
-                  <Award className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
+                  <RiAwardLine className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
                   <span>I combine creative direction with advanced editing workflows and AI tools to produce videos that capture attention, communicate a clear message, and elevate brand identity.</span>
                 </p>
                 <p className="flex items-start gap-3">
-                  <Play className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
+                  <RiPlayFill className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
                   <span>My work centers on storytelling, clean visual design, and seamless execution, whether it's commercial content, social media campaigns, or fast-paced short-form videos.</span>
                 </p>
                 <p className="flex items-start gap-3">
-                  <Briefcase className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
+                  <RiBriefcaseLine className="text-[#4cc8ed] flex-shrink-0 mt-1" size={24} />
                   <span>I approach every project with a problem solver mindset, aiming to turn ideas into visuals that feel modern, engaging, and strategically aligned with the brand.</span>
                 </p>
               </div>
@@ -511,9 +525,9 @@ const Portfolio = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {[
-              { icon: Mail, title: "Email", content: "abdalrhmanah66@gmail.com", href: "mailto:abdalrhmanah66@gmail.com", delay: 0.1 },
-              { icon: Phone, title: "Phone", content: "01020891466", href: "tel:01020891466", delay: 0.2 },
-              { icon: MapPin, title: "Location", content: "Maadi, Cairo", href: null, delay: 0.3 }
+              { icon: RiMailLine, title: "Email", content: "abdalrhmanah66@gmail.com", href: "mailto:abdalrhmanah66@gmail.com", delay: 0.1 },
+              { icon: RiPhoneLine, title: "Phone", content: "01020891466", href: "tel:01020891466", delay: 0.2 },
+              { icon: RiMapPinLine, title: "Location", content: "Maadi, Cairo", href: null, delay: 0.3 }
             ].map((contact, index) => (
               <AnimatedText key={index} delay={contact.delay}>
                 <motion.div
@@ -552,11 +566,11 @@ const Portfolio = () => {
           <AnimatedText delay={0.6}>
             <div className="flex justify-center gap-3 sm:gap-4 flex-wrap">
               {[
-                { icon: Linkedin, href: "https://www.linkedin.com/in/abdalrhman-ahmed-1a476031b", label: "LinkedIn" },
-                { icon: Instagram, href: "https://www.instagram.com/abdalrhman_edits", label: "Instagram" },
-                { icon: Music, href: "https://www.tiktok.com/@abdalrhmanahmed179", label: "TikTok" },
-                { icon: Facebook, href: "https://www.facebook.com/share/1EjHPL1n9n/", label: "Facebook" },
-                { icon: Youtube, href: "https://youtube.com/@abdalrhman_ahmed1", label: "YouTube" }
+                { icon: RiLinkedinFill, href: "https://www.linkedin.com/in/abdalrhman-ahmed-1a476031b", label: "LinkedIn" },
+                { icon: RiInstagramFill, href: "https://www.instagram.com/abdalrhman_edits", label: "Instagram" },
+                { icon: RiTiktokFill, href: "https://www.tiktok.com/@abdalrhmanahmed179", label: "TikTok" }, // Replaced Music with TikTok
+                { icon: RiFacebookFill, href: "https://www.facebook.com/share/1EjHPL1n9n/", label: "Facebook" },
+                { icon: RiYoutubeFill, href: "https://youtube.com/@abdalrhman_ahmed1", label: "YouTube" }
               ].map((social, index) => (
                 <motion.a
                   key={index}
