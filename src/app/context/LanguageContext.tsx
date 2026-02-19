@@ -108,7 +108,7 @@ const translations: Record<string, Record<Language, string>> = {
   'footer.service2': { en: 'Motion Graphics', ar: 'موشن جرافيك' },
   'footer.service3': { en: 'AI Content', ar: 'محتوى الذكاء الاصطناعي' },
   'footer.service4': { en: 'Graphic Design', ar: 'تصميم جرافيك' },
-  'footer.rights': { en: '© 2024 Abdalrhman Ahmed. All rights reserved.', ar: '© 2024 عبد الرحمن أحمد. جميع الحقوق محفوظة.' },
+  'footer.rights': { en: '© 2026 Abdalrhman Ahmed. All rights reserved.', ar: '© 2026 عبد الرحمن أحمد. جميع الحقوق محفوظة.' },
   'footer.built': { en: 'Designed & Built with ❤️', ar: 'صُمم وطُوّر بحب ❤️' },
 };
 
