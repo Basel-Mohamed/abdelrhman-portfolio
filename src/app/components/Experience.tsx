@@ -9,16 +9,10 @@ const Experience = () => {
 
   const experiences = [
     {
-      role: t('exp.role1'),
-      company: t('exp.company1'),
-      date: t('exp.date1'),
-      desc: t('exp.desc1')
-    },
-    {
-      role: t('exp.role2'),
-      company: t('exp.company2'),
-      date: t('exp.date2'),
-      desc: t('exp.desc2')
+      role: t('exp.role4'),
+      company: t('exp.company4'),
+      date: t('exp.date4'),
+      desc: t('exp.desc4')
     },
     {
       role: t('exp.role3'),
@@ -27,10 +21,16 @@ const Experience = () => {
       desc: t('exp.desc3')
     },
     {
-      role: t('exp.role4'),
-      company: t('exp.company4'),
-      date: t('exp.date4'),
-      desc: t('exp.desc4')
+      role: t('exp.role2'),
+      company: t('exp.company2'),
+      date: t('exp.date2'),
+      desc: t('exp.desc2')
+    },
+    {
+      role: t('exp.role1'),
+      company: t('exp.company1'),
+      date: t('exp.date1'),
+      desc: t('exp.desc1')
     },
   ];
 
