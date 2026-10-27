@@ -25,7 +25,13 @@ const Experience = () => {
       company: t('exp.company3'),
       date: t('exp.date3'),
       desc: t('exp.desc3')
-    }
+    },
+    {
+      role: t('exp.role4'),
+      company: t('exp.company4'),
+      date: t('exp.date4'),
+      desc: t('exp.desc4')
+    },
   ];
 
   return (
