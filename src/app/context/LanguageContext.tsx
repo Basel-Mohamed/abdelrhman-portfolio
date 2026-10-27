@@ -65,26 +65,34 @@ const translations: Record<string, Record<Language, string>> = {
   'exp.title': { en: 'Experience', ar: 'الخبرة العملية' },
   'exp.role1': { en: 'Video Editor', ar: 'مونتير فيديو' },
   'exp.company1': { en: 'MarkUP', ar: 'مارك أب' },
-  'exp.date1': { en: 'Dec 2024 - Present', ar: 'ديسمبر 2024 - الآن' },
+  'exp.date1': { en: 'Dec 2024 - Feb 2026', ar: 'ديسمبر 2024 - فبراير 2026' },
   'exp.desc1': { 
     en: 'Responsible for editing videos to achieve the marketing goals of brands and using professional editing skills with AI tools to produce different videos that achieve success on social media and build the brand in the long term. I cooperate closely with the marketing team to formulate content that enhances audience reach, maintains customer loyalty, and achieves tangible results.', 
     ar: 'مسؤول عن تحرير الفيديوهات لتحقيق الأهداف التسويقية للعلامات التجارية واستخدام مهارات المونتاج الاحترافية مع أدوات الذكاء الاصطناعي لإنتاج فيديوهات متنوعة تحقق النجاح على وسائل التواصل الاجتماعي وتبني العلامة التجارية على المدى الطويل. أتعاون بشكل وثيق مع فريق التسويق لصياغة محتوى يعزز وصول الجمهور، ويحافظ على ولاء العملاء، ويحقق نتائج ملموسة.' 
   },
   
-  'exp.role2': { en: 'Graphic Designer & Video Editor', ar: 'مصمم جرافيك ومونتير فيديو' },
-  'exp.company2': { en: 'Carving', ar: 'كارفنج' },
-  'exp.date2': { en: 'Oct 2024 - Nov 2024', ar: 'أكتوبر 2024 - نوفمبر 2024' },
+  'exp.role2': { en: 'Video Editor & AI Video Creator', ar: 'مونتير فيديو وصانع فيديوهات بالذكاء الاصطناعي' },
+  'exp.company2': { en: 'Brandizer', ar: 'براندايزر' },
+  'exp.date2': { en: 'Mar 2026 - Sep 2026', ar: 'مارس 2026 - سبتمبر 2026' },
   'exp.desc2': { 
-    en: "I was responsible for social media designs to achieve marketing goals aligned with the brand's long-term objectives, along with editing some videos that served those goals.", 
-    ar: "كنت مسؤولاً عن تصميمات وسائل التواصل الاجتماعي لتحقيق أهداف تسويقية تتماشى مع الأهداف طويلة المدى للعلامة التجارية، إلى جانب تحرير بعض الفيديوهات التي تخدم تلك الأهداف." 
+    en: "Worked across podcast editing and AI-generated video production for brands such as Bajaj and other clients. Focused on delivering engaging visual content tailored to each project's requirements, combining video editing skills with AI-driven production techniques.", 
+    ar: "عملت على مونتاج البودكاست وإنتاج الفيديوهات المولّدة بالذكاء الاصطناعي لعلامات تجارية مثل Bajaj وعملاء آخرين. ركزت على تقديم محتوى مرئي جذاب مصمم وفقاً لمتطلبات كل مشروع، من خلال الجمع بين مهارات المونتاج وتقنيات الإنتاج المعتمدة على الذكاء الاصطناعي." 
   },
 
-  'exp.role3': { en: 'Graphic Designer', ar: 'مصمم جرافيك' },
-  'exp.company3': { en: 'Abou-Elgokh', ar: 'أبو الجوخ' },
-  'exp.date3': { en: 'Sep 2024 - Dec 2024', ar: 'سبتمبر 2024 - ديسمبر 2024' },
+  'exp.role3': { en: 'Video Editor & Motion Graphics Designer', ar: 'مونتير فيديو ومصمم موشن جرافيك' },
+  'exp.company3': { en: 'AMC United (Freelance)', ar: 'إيه إم سي يونايتد (عمل حر)' },
+  'exp.date3': { en: 'Feb 2026 - Present', ar: 'فبراير 2026 - الآن' },
   'exp.desc3': { 
-    en: "I was responsible for photographing the products and providing ready-to-use visual designs for social media, specifically tailored to increase sales.", 
-    ar: "كنت مسؤولاً عن تصوير المنتجات وتوفير تصميمات مرئية جاهزة للاستخدام على وسائل التواصل الاجتماعي، مصممة خصيصاً لزيادة المبيعات." 
+    en: "Worked on freelance projects for brands such as Farben and AKM Constructions, handling video editing and motion graphics from supplied production footage to final delivery. Also used AI tools when needed to address filming limitations and improve visual results, ensuring each project met the desired quality and creative direction.", 
+    ar: "عملت على مشاريع حرة لعلامات تجارية مثل Farben وAKM Constructions، وتوليت المونتاج والموشن جرافيك بدءاً من المادة المصورة المقدَّمة وحتى التسليم النهائي. كما استخدمت أدوات الذكاء الاصطناعي عند الحاجة لمعالجة قيود التصوير وتحسين النتائج البصرية، بما يضمن تحقيق كل مشروع للجودة والتوجه الإبداعي المطلوبين." 
+  },
+
+  'exp.role4': { en: 'Video Editor & AI Video Creator', ar: 'مونتير فيديو وصانع فيديوهات بالذكاء الاصطناعي' },
+  'exp.company4': { en: 'Upshifters', ar: 'أب شيفترز' },
+  'exp.date4': { en: 'Oct 2026 - Present', ar: 'أكتوبر 2026 - الآن' },
+  'exp.desc4': { 
+    en: "Produce video content for the Saudi market across the automotive, finance, and FMCG sectors, working with brands such as MG, Mitsubishi, and others. Handle the post-production process from supplied footage and scripts to final delivery, adapting to different creative approaches, from performance-driven videos with established creative guidelines to projects that allow for greater creative input and editorial decision-making.", 
+    ar: "أنتج محتوى فيديو للسوق السعودي في قطاعات السيارات والتمويل والسلع الاستهلاكية سريعة الدوران، بالعمل مع علامات تجارية مثل MG وMitsubishi وغيرها. أتولى مرحلة ما بعد الإنتاج من المادة المصورة والسكريبتات وحتى التسليم النهائي، مع التكيّف مع أساليب إبداعية مختلفة، بدءاً من فيديوهات الأداء ذات الإرشادات الإبداعية المحددة وصولاً إلى مشاريع تتيح مساحة أكبر للمساهمة الإبداعية واتخاذ القرارات التحريرية." 
   },
 
   // Contact
